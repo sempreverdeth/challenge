@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+p{
+  font-size: 5vh;
+  color: lightgreen;
+  text-align: center;
+  margin: 0;
+}
+
+.menu button{
+  margin-top: 0.5vh;
+}
+
+main{
+  height: 50vh;
+}
+
+#container{
+  border-radius:2vh;
+  height: 85%;
+  width: 75%;
+  background-color: rgba(2, 0, 36, 0.5);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#logo{
+  background-image: url(logo.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 10vh;
+  width: 25vh;
+  margin-top: 2vh;
+  left: 50%;
+  transform:translateX(-50%);
+}
+
+.menu{
+  text-align: center;
+  width: 90%;
+  height: 5%;
+  background-color: lightgreen;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.monopattini{
+  height: 33.33%;
+  color: white;
+  margin-left: 5vh;
+  margin-top: 3vh;
+  margin-right: 5vh;
+}
+
+.barra{
+  height: 3vh;
+  border-radius: 2vh;
+}
+
+.barra.gino{
+  width: 35%;
+  background-color:coral;
+}
+
+.barra.mike{
+  width: 100%;
+  background-color:limegreen;
+}
+
+.barra.fede{
+  width: 25%;
+  background-color:darkred;
+}
+
+h1{
+  display: inline-block;
+}
+
+h3::before{
+  content:"\2192";
+}
